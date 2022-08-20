@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto:ital,wght@0,100;0,700;1,300&display=swap');
+
+.conteiner{
+    max-width: 700px;
+    margin: auto;
+    
+    padding: 7px;
+    padding-top: 30px;
+}
+    body{
+        font-family: Aboreto, sans-sarif; 
+        font-size: 16px;
+        font-weight: bolder;
+        background: rgb(163, 149, 149);
+
+    }
+        .avatar{    /*аватарка*/
+            width: 200px; 
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+        }
+
+
+.info{
+    display: flex;
+    
+}
+
+    .info_text h1{
+        margin-left: 15px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+        .info_text{  /*текст рядом*/
+            font-style: italic;
+            
+        }
+            .info_text p{
+                margin: 0px;
+                margin-left: 15px;
+            }
+        .card{
+            padding: 2px 10px;
+            border-radius: 20px;
+
+        }
+        .hobbi h4{
+            padding:0px 0px;
+            
+        }
+        .hobbi{
+            background: rgb(184, 168, 168);
+            padding: 5px 5px;
+        }
+            .hobbi ol{
+                padding: 0;
+            }
+                .hobbi li{
+                    
+                    list-style: none;
+                    width: 100%;
+                    margin:0;
+                    margin-bottom: 4px;
+                    padding: 0px 10px;
+                   
+                    
+
+                }
+               
+            .hobbi h4{
+                border-bottom: 2px solid #8b939b ;
+            }
+
+
+
+
+
+        .worck{
+            background: rgb(204, 187, 187);
+        }
+            .worck h4{
+                border-bottom: 2px solid #8b939b;
+            }
+            .table_2{
+                width: 100%;
+            }
+                .a1 td{
+                    
+                    padding-bottom: 5px;
+                    padding-left: 0px;
+                }
+                    .a1 td:nth-child(1){
+                        color: black;
+                        font-weight: bold;
+                        font-size: 17px;
+                        background: rgb(207, 192, 192);
+                        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+                        padding: 4px;
+                    }
+                    .a1 td:nth-child(2),
+                    .a1 td:nth-child(3){
+                        color: rgb(98, 107, 107);
+                        background: rgb(207, 192, 192);
+                        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+                        padding: 4px;
+                    }
+                    
+                
+
+
+
+
+
+
+
+
+        .sety{
+            border-bottom: 4px solid #8b939b;
+            word-spacing: 10px;
+            margin-bottom: 10px;
+
+        
+        }
+        .sety p{
+            margin-bottom: 5px;
+        }
+            .sety h4{
+                word-spacing: 1px;
+                margin-left: 15px;
+                font-size: 18px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 10px;
+            }
+
+ 
+
+
+.svyaz h2{
+    text-align: center;
+}
+
+.svyaz{
+    background: rgb(204, 187, 187);
+    border-radius: 20px;
+    padding: 1px 15px;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    
+}
+.form-row .s1{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.s1 label{
+    display:block;
+        
+}            
+
+.s1 input, textarea{
+    width: 100%;
+    border: none;
+    background: rgb(223, 202, 202);
+    padding: 12px 0 ;
+    color:black;
+    outline: none;
+
+
+}

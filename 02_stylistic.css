@@ -1,0 +1,43 @@
+a{ /*правка ссылок*/
+    color: rgb(71, 71, 73);
+    transition: all .4s;
+}
+    a:hover{ /*правка ссылок_2*/
+           color:rgb(91, 91, 255);
+           font-size: 17px;
+    }
+    /* a:visited{
+        color:rgb(82, 37, 37);     
+    }*/
+    a:active{
+        color:rgb(12, 12, 99)
+    }
+.btn{
+    cursor: pointer;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    border: non;
+    font-family: inherit;
+    padding: 5px 25px;
+
+}
+    .btn:hover{
+        opacity: 0.8;
+        color: rgb(91, 91, 255);
+    }
+
+
+
+
+
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+    .a1{
+        display: block;
+    }
+}
